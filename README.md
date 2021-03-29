@@ -27,7 +27,7 @@ done
 ```
   1 #!/bin/bash
   2 for ((i=0;i<10;i=i+1));do
-  3     if [ ${i} -gt 5 -a ${i} -lt 8 ];then
+  3     if [ ${i} -gt 5 -a ${i} -lt 8 ];then # -a: and, -o: or, -gt: greater than, -lt: less than.
   4         echo ${i}
   5     fi
   6 done
