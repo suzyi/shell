@@ -1,6 +1,6 @@
 # shell
 This repository is used to take notes for learning shell coding, Mar 18, 2021.
-### basics
+### 1 - basics
 + cd
   + `cd foldername` goes to specified folder.
   + `cd ..` returns back to previous folder.
@@ -14,7 +14,7 @@ This repository is used to take notes for learning shell coding, Mar 18, 2021.
   + `rm -r foldername` is used to delete a folder (and all files contained within it).
 + mv
   + `mv oldfoldername newfoldername` is used to rename a folder.
-### containers
+### 2 - containers
 + `vec=(128 64 32 16 8 4)`
 ```
 vec=(128 64 32 16 8 4)
@@ -23,8 +23,8 @@ do
      echo $i
 done
 ```
-### if
-### for loop
+### 3 - if
+### 4 - for loop
 + print integers from 1 to 9.
 ```
 #!/bin/bash
@@ -49,4 +49,15 @@ done
   6 
   7 echo "done"
 ```
-### string operations
+### 5 - string operations
+string partition or string split. For example, this often appear in batchly rename some files,
+```
+#!/bin/bash
+# run "bash rename.sh" in command line
+for file in ../original_images/*.png;do
+  echo "working on ${file}" # ../original_images/1.png, ../original_images/2.png, etc.
+  arr=(${file//// }) # replace all occurrences of ';' (the initial // means global replace) in the string file with a single space.
+  echo ${arr[2]} # 1.png, 2.png, etc.
+  cp ${file} renamed/square_${arr[2]}
+done
+```
