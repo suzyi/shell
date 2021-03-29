@@ -23,11 +23,11 @@ do
      echo $i
 done
 ```
-### 3 - if
+### 3 - if and or
 ```
   1 #!/bin/bash
   2 for ((i=0;i<10;i=i+1));do
-  3     if [ ${i} -lt 5 ];then # -lt: less than, -gt:greater than, -ne: not equal
+  3     if [ ${i} -gt 5 -a ${i} -lt 8 ];then
   4         echo ${i}
   5     fi
   6 done
