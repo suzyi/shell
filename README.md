@@ -24,6 +24,14 @@ do
 done
 ```
 ### 3 - if
+```
+  1 #!/bin/bash
+  2 for ((i=0;i<10;i=i+1));do
+  3     if [ ${i} -lt 5 ];then # -lt: less than, -gt:greater than, -ne: not equal
+  4         echo ${i}
+  5     fi
+  6 done
+```
 ### 4 - for loop
 + print integers from 1 to 9.
 ```
