@@ -1,12 +1,14 @@
 # shell
 This repository is used to take notes for learning shell coding, Mar 18, 2021.
-### 1 - basics
+### 1 - common command lines
 + cd
   + `cd foldername` goes to specified folder.
   + `cd ..` returns back to previous folder.
 + cp
   + `cp img.png img-backup.png` is an example of copying a single file.
   + `cp -r oldfoldername newfoldername` is an example of copying a folder.
++ du
+  + `du -sh ./` shows the memory consumption.
 + ls
   + `ls` shows all files contained in current folder.
   + `ls -l | wc -l` tells you how many files are included in current folder.
@@ -25,12 +27,12 @@ done
 ```
 ### 3 - if and or
 ```
-  1 #!/bin/bash
-  2 for ((i=0;i<10;i=i+1));do
-  3     if [ ${i} -gt 5 -a ${i} -lt 8 ];then # -a: and, -o: or, -gt: greater than, -lt: less than.
-  4         echo ${i}
-  5     fi
-  6 done
+#!/bin/bash
+for ((i=0;i<10;i=i+1));do
+    if [ ${i} -gt 5 -a ${i} -lt 8 ];then # -a: and, -o: or, -gt: greater than, -lt: less than.
+        echo ${i}
+    fi
+done
 ```
 ### 4 - for loop
 + print integers from 1 to 9.
@@ -49,13 +51,12 @@ done
 ```
 + batchly rename some files.
 ```
-  1 #!/bin/bash
-  2 for file in *.png
-  3 do
-  4     cp ${file} ../../processed/test/circle_${file}                                                                                                              
-  5 done
-  6 
-  7 echo "done"
+#!/bin/bash
+for file in *.png
+do
+    cp ${file} ../../processed/test/circle_${file}                                                                                                              
+done
+echo "done"
 ```
 ### 5 - string operations
 string partition or string split. For example, this often appear in batchly rename some files,
