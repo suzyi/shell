@@ -69,3 +69,17 @@ for file in ../original_images/*.png;do
   cp ${file} renamed/square_${arr[2]}
 done
 ```
+### 6 - file and folder operation
+Check if a component is a file or a directory.
+```
+#!/bin/bash
+for component in ssim/*;do
+    if [ -d $component ];then
+        echo $component is a directory
+    elif [ -f $component ];then
+        echo $component is a file
+    else
+        echo $component is not valid. 
+    fi
+done
+```
