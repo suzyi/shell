@@ -35,29 +35,10 @@ for ((i=0;i<10;i=i+1));do
 done
 ```
 ### 4 - for loop
-+ print integers from 1 to 9.
-```
-#!/bin/bash
-for i in {1..9};do
-    echo ${i}
-done
-```
-+ print all odd numbers/even numbers between 0 and 10.
-```
-#!/bin/bash
-for ((i=0;i<10;i=i+2));do                                                                                                                                                 
-    echo ${i}
-done
-```
-+ batchly rename some files.
-```
-#!/bin/bash
-for file in *.png
-do
-    cp ${file} ../../processed/test/circle_${file}                                                                                                              
-done
-echo "done"
-```
++ [loop-over-integers.sh](https://github.com/suzyi/shell/blob/main/loop/loop-over-integers.sh)
++ [loop-over-odd-numbers.sh](https://github.com/suzyi/shell/blob/main/loop/loop-over-odd-numbers.sh)
++ [loop over serveral strings](https://github.com/suzyi/shell/blob/main/loop/loop-over-strings.sh)
++ [rename-some-files.sh](https://github.com/suzyi/shell/blob/main/loop/rename-some-files.sh)
 ### 5 - string operations
 string partition or string split. For example, this often appear in batchly rename some files,
 ```
