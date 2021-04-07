@@ -34,11 +34,13 @@ for ((i=0;i<10;i=i+1));do
     fi
 done
 ```
-### 4 - for loop
-+ [loop-over-integers.sh](https://github.com/suzyi/shell/blob/main/loop/loop-over-integers.sh)
-+ [loop-over-odd-numbers.sh](https://github.com/suzyi/shell/blob/main/loop/loop-over-odd-numbers.sh)
-+ [loop over serveral strings](https://github.com/suzyi/shell/blob/main/loop/loop-over-strings.sh)
-+ [rename-some-files.sh](https://github.com/suzyi/shell/blob/main/loop/rename-some-files.sh)
+### 4 - loop
++ for loop
+  + [loop-over-integers.sh](https://github.com/suzyi/shell/blob/main/loop/loop-over-integers.sh)
+  + [loop-over-odd-numbers.sh](https://github.com/suzyi/shell/blob/main/loop/loop-over-odd-numbers.sh)
+  + [loop over serveral strings](https://github.com/suzyi/shell/blob/main/loop/loop-over-strings.sh)
+  + [rename-some-files.sh](https://github.com/suzyi/shell/blob/main/loop/rename-some-files.sh)
++ while loop
 ### 5 - string operations
 string partition or string split. For example, this often appear in batchly rename some files,
 ```
