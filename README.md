@@ -41,7 +41,7 @@ done
   + [loop over serveral strings](https://github.com/suzyi/shell/blob/main/loop/loop-over-strings.sh)
   + [rename-some-files.sh](https://github.com/suzyi/shell/blob/main/loop/rename-some-files.sh)
 + while loop
-### 5 - string operations
+### 5 - string manipulation
 string partition or string split. For example, this often appear in batchly rename some files,
 ```
 #!/bin/bash
