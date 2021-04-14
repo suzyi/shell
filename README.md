@@ -9,6 +9,8 @@ This repository is used to take notes for learning shell coding, Mar 18, 2021.
   + `cp -r oldfoldername newfoldername` is an example of copying a folder.
 + du
   + `du -sh ./` shows the memory consumption.
++ find
+  + `find ./ -name "*au*.py"` returns the location of all possile files with "au" and ".py".
 + ls
   + `ls` shows all files contained in current folder.
   + `ls -l | wc -l` tells you how many files are included in current folder.
