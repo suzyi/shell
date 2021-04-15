@@ -11,6 +11,7 @@ This repository is used to take notes for learning shell coding, Mar 18, 2021.
   + `du -sh ./` shows the memory consumption.
 + find
   + `find ./ -name "*au*.py"` returns the location of all possile files with "au" and ".py".
+  + [delete_redundant_png.sh](https://github.com/suzyi/shell/blob/main/find/delete_redundant_png.sh) is used to delete all ".png" files from current directory to reduce memory occupation.
 + ls
   + `ls` shows all files contained in current folder.
   + `ls -l | wc -l` tells you how many files are included in current folder.
