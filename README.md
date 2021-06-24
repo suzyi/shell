@@ -73,3 +73,6 @@ for component in ssim/*;do
     fi
 done
 ```
+### 7 - calculate the runtime of a piece of time
+To calculate the time consumption of a piece of code within shell, use
++ [runtime.sh](https://github.com/suzyi/shell/blob/main/runtime.sh)
