@@ -73,6 +73,6 @@ for component in ssim/*;do
     fi
 done
 ```
-### 7 - calculate the runtime of a piece of time
-To calculate the time consumption of a piece of code within shell, use
-+ [runtime.sh](https://github.com/suzyi/shell/blob/main/runtime.sh)
+### 7 - commonly used scripts
++ To calculate the time consumption of a piece of code within shell, use [runtime.sh](https://github.com/suzyi/shell/blob/main/runtime.sh)
++ To specify some inputs to a shell file, run `bash input_to_shell.sh 43 somewords` for example, then an integer 43 and a string is passed to [input_to_shell.sh](https://github.com/suzyi/shell/blob/main/input_to_shell.sh).
