@@ -15,6 +15,9 @@ This repository is used to take notes for learning shell coding, Mar 18, 2021.
 + ls
   + `ls` shows all files contained in current folder.
   + `ls -l | wc -l` tells you how many files are included in current folder.
++ mkdir
+  + `mkdir images` creates a folder named "images".
+  + `mkdir -p images/train/` creates the directory "images/train/" recursively, even if there is no "images".
 + rm
   + `rm -r foldername` is used to delete a folder (and all files contained within it).
 + mv
