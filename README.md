@@ -7,6 +7,8 @@ This repository is used to take notes for learning shell coding, Mar 18, 2021.
 + cp
   + `cp img.png img-backup.png` is an example of copying a single file.
   + `cp -r oldfoldername newfoldername` is an example of copying a folder.
++ curl
+  + `curl -LO http://images.cocodataset.org/zips/train2014.zip` downloads file from a specified web link.
 + du
   + `du -sh ./` shows the memory consumption.
 + find
@@ -40,6 +42,8 @@ for ((i=0;i<10;i=i+1));do
     fi
 done
 ```
++ `if [ -d readme.txt ]` is False, `if [ ! -d readme.txt ]` is True, and `if [ -d folder/ ]` is True where -d means directory.
++ `if [ -z "$1" ] ` is True if the length of the 1st input is zero.
 ### 4 - loop
 + for loop
   + [loop-over-integers.sh](https://github.com/suzyi/shell/blob/main/loop/loop-over-integers.sh)
