@@ -22,6 +22,8 @@ This repository is used to take notes for learning shell coding, Mar 18, 2021.
   + `mkdir -p images/train/` creates the directory "images/train/" recursively, even if there is no "images".
 + rm
   + `rm -r foldername` is used to delete a folder (and all files contained within it).
++ tar
+  + `tar -xvf file.tar` uncompresses "file.tar" to the folder "file/", where -x is extraction, -v is verbose meaning that displaying all info during extraction, -f is using the same file folder name.
 + mv
   + `mv oldfoldername newfoldername` is used to rename a folder.
 ### 2 - containers
