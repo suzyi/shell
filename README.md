@@ -1,6 +1,8 @@
 # shell
 This repository is used to take notes for learning shell coding, Mar 18, 2021.
 ### 1 - common command lines
++ cat
+  + `cat train.txt test.txt > all.txt` incorporates two .txt file into one named "all.txt".
 + cd
   + `cd foldername` goes to specified folder.
   + `cd ..` returns back to previous folder.
