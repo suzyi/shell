@@ -47,6 +47,7 @@ for ((i=0;i<10;i=i+1));do
 done
 ```
 + `if [ -d readme.txt ]` is False, `if [ ! -d readme.txt ]` is True, and `if [ -d folder/ ]` is True where -d means directory.
++ `if [ -e readme.txt ] ` is True if the file "readme.txt" exists.
 + `if [ -z "$1" ] ` is True if the length of the 1st input is zero.
 ### 4 - loop
 + for loop
