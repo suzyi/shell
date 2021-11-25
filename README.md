@@ -41,7 +41,7 @@ done
 ```
 #!/bin/bash
 for ((i=0;i<10;i=i+1));do
-    if [ ${i} -gt 5 -a ${i} -lt 8 ];then # -a: and, -o: or, -gt: greater than, -lt: less than.
+    if [ ${i} -gt 5 -a ${i} -lt 8 ];then # -a: and, -o: or, -gt: greater than, -lt: less than, -ne: not equal to.
         echo ${i}
     fi
 done
