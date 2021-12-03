@@ -32,8 +32,7 @@ This repository is used to take notes for learning shell coding, Mar 18, 2021.
 + `vec=(128 64 32 16 8 4)`
 ```
 vec=(128 64 32 16 8 4)
-for i in ${vec[@]}                                                                                                                                                           
-do
+for i in ${vec[@]}; do
      echo $i
 done
 ```
