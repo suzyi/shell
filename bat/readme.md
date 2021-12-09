@@ -13,8 +13,8 @@
     + `"%%w\"` has a backslash to indicate this is a directory otherwise it will prompt to ask you for confirmation "Is this a file or a directory? F=file, D=directory"
     + `/s` copies directories and subdirectories, unless they are empty.
     + `/e` copies all subdirectories, even if they are empty.
-  + `xcopy "9\config.py" "config.py*"`
-    + `"config.py*"` has a star at the end to indicate this is a file.
+  + `xcopy "9\config.py" "folder\config.py*"`
+    + `"folder\config.py*"` has a star at the end to indicate this is a file. Besides, if "folder" doesn't exist, it will create one automatically.
 ### loop through a range of numbers
 ```
 @echo off
