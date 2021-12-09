@@ -4,13 +4,17 @@
 + `copy`
   + `copy /y results\training-log.txt results\training-log-backup.txt`
 + `del example.txt` deltes a file.
-+ `RD /S /Q FolderName` removes a directory.
-  + `/Q` specifies quiet option meaning it won't ask for confirmation during deleting.
-  + `/S` removes all directories and files in the specified directory in addition to the directory itself. Used to remove a directory tree.
-+ `rem RD /S /Q %%w` comments this line.
-+ `xcopy 9 %%w /S /E`
-  + `/S` copies directories and subdirectories, unless they are empty.
-  + `/E` copies all subdirectories, even if they are empty.
++ `rd /s /q FolderName` removes a directory.
+  + `/s` removes all directories and files in the specified directory in addition to the directory itself. Used to remove a directory tree.
+  + `/q` specifies quiet option meaning it won't ask for confirmation during deleting.
++ `rem rd /s /q %%w` comments this line.
++ `xcopy`
+  + `xcopy 9 "%%w\" /s /e`
+    + `"%%w\"` has a backslash to indicate this is a directory otherwise it will prompt to ask you for confirmation "Is this a file or a directory? F=file, D=directory"
+    + `/s` copies directories and subdirectories, unless they are empty.
+    + `/e` copies all subdirectories, even if they are empty.
+  + `xcopy "9\config.py" "config.py*"`
+    + `"config.py*"` has a star at the end to indicate this is a file.
 ### loop through a range of numbers
 ```
 @echo off
