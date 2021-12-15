@@ -4,6 +4,15 @@
 + `copy`
   + `copy /y results\training-log.txt results\training-log-backup.txt`
 + `del example.txt` deltes a file.
++ `goto`
+```
+echo This example tells you how to comment a block
+goto BlockYouWantToComment
+echo working on %%w
+echo working on %%w
+:BlockYouWantToComment
+echo This example is ended.
+```
 + `rd /s /q FolderName` removes a directory.
   + `/s` removes all directories and files in the specified directory in addition to the directory itself. Used to remove a directory tree.
   + `/q` specifies quiet option meaning it won't ask for confirmation during deleting.
