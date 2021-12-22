@@ -19,6 +19,8 @@ This repository is used to take notes for learning shell coding, Mar 18, 2021.
 + ls
   + `ls` shows all files contained in current folder.
   + `ls -l | wc -l` tells you how many files are included in current folder.
++ pip
+  + `pip show <package-name>` will return the path where the package was installed.
 + mkdir
   + `mkdir images` creates a folder named "images".
   + `mkdir -p images/train/` creates the directory "images/train/" recursively, even if there is no "images".
