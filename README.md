@@ -30,6 +30,9 @@ This repository is used to take notes for learning shell coding, Mar 18, 2021.
   + `tar -xvf file.tar` uncompresses "file.tar" to the folder "file/", where -x is extraction, -v is verbose meaning that displaying all info during extraction, -f is using the same file folder name.
 + mv
   + `mv oldfoldername newfoldername` is used to rename a folder.
++ zip/unzip
+  + `unzip HereIsFileName.zip`
+  + `zip -r HereIsFileName.zip HereIsFileName/`
 ### 2 - containers
 + `vec=(128 64 32 16 8 4)`
 ```
