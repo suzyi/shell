@@ -24,3 +24,20 @@ channel_priority: true
 ```
 conda install m2-base
 ```
+### create a virtual environment for building Caffe
+```
+# python 2.7 or 3.5 is required to build Caffe
+conda create --name forCaffe python=2.7
+
+# check existed environments
+conda info --envs
+
+# activate
+conda activate forCaffe
+python --version
+
+# deactivate
+conda activate
+
+# destroy a existed env
+```
