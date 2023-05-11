@@ -52,6 +52,7 @@ done
 ```
 + `if [ -d readme.txt ]` is False, `if [ ! -d readme.txt ]` is True, and `if [ -d folder/ ]` is True where -d means directory.
 + `if [ -e readme.txt ] ` is True if the file "readme.txt" exists.
+  + `if [ ! -e build ];then mkdir build fi` if build doesn't exist.
 + `if [ -z "$1" ] ` is True if the length of the 1st input is zero.
 ### 4 - loop
 + for loop
